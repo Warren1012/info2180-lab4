@@ -2,10 +2,26 @@
 <html>
     <head>
         <script src="app.js"></script>
+
+         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Avengers Character Search</h1>
-        <button type="button" class ="search" id ="search">Search</button>
-        <div class="msg"></div>
+        <section class= "testing">
+            <div class ="container">
+        <h1>AVENGERS CHARACTER SEARCH</h1>
+            </div>
+        </section>
+        
+        <h2>Search by Full Name or Alias</h2>
+        <form method="GET" name="form" action="superheroes.php">
+            <input type="text" placeholder="e.g Captain America or Steve Rodgers" id="lookup">
+            <input type="button" name= "hero" value="Search" id="look">
+        </form>
+                
+        <section class ="results">
+            <h2>Results</h2>
+            <hr> 
+            <div class="msg" id = "result"></div>
+        </section>
     </body>
 </html>

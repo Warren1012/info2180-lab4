@@ -1,0 +1,29 @@
+.testing .container {
+    background-color: blue;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: yellow;
+  }
+  
+  h2 {
+    padding-left: 10em;
+  }
+  
+  hr {
+    width: 65%;
+  }
+  body {
+    background-color: white;
+    
+  }
+  
+  .Searching{
+      float:center;
+  }
+  
+  .results .msg {
+    padding-left: 15em;
+  }
